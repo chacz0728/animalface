@@ -1,0 +1,16 @@
+<? xml 버전 = " 1.0 " 인코딩 = " UTF-8 " ?>
+< URL 집합
+      xmlns = " http://www.sitemaps.org/schemas/sitemap/0.9 "
+      xmlns : xsi = " http://www.w3.org/2001/XMLSchema-instance "
+      xsi : schemaLocation = " http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd " >
+<!-- 무료 온라인 사이트맵 생성기로 생성됨 www.xml-sitemaps.com -->
+
+
+< URL >
+  < loc >https://animalface.site/</ loc >
+  < lastmod >2020-03-17T17:27:32+00:00</ lastmod >
+</ URL >
+
+
+</ urlset >
