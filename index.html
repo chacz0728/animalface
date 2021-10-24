@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>닮은 동물 찾기 테스트</title>
+    <meta name="title" content="닮은 동물 찾기 테스트">
+    <meta name="subject" content="얼굴로 보는 인공지능 동물상 테스트, 나와 닮은 동물상을 찾아보세요!">
+    <meta name="keywords" content="동물상 테스트, 인공지능 동물상 테스트, 얼굴상, 얼굴상 테스트, 나와 닮은 동물, 동물상 찾기, 얼굴로 보는 동물상, 얼굴 동물, 동물얼굴, animalface, 강아지상, 고양이상, 여우상, 사슴상, 토끼상, 곰상, 공룡상, 인공지능 동물상, AI 얼굴상, AI 동물상">
+    <meta name="author" content="조코딩">
+    <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://animalface.site" />
+    <meta property="og:url" content="https://animalface.site" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="동물상 테스트" />
+    <meta property="og:description" content="얼굴로 보는 인공지능 동물상 테스트, 나와 닮은 동물상을 찾아보세요! 대표 동물상 연예인 사진 데이터로 학습한 인공지능이 나의 얼굴로 동물상과 특징을 찾아드립니다. 회원가입도 필요없이 화면에서 바로 확인해보세요! 사진 데이터는 그 어디에도 전송되지 않습니다. 인공지능이 보는 나의 동물상 테스트 한번 해보세요! 강아지상? 고양이상? 여우상? 사슴상? 토끼상? 곰상? 공룡상? 얼굴상 테스트를 통해 나와 닮은 동물 찾기를 할 수 있습니다."
+    />
+    <meta property="og:image" content="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fc0eq42%2FbtqCQpiFhFn%2F8KPaOP9q8PXpJFRL7if55K%2Fimg.jpg" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e64b3727e862b06"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145482737-6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-145482737-6');
+    </script>
+</head>
+
+<body>
+    <nav class="p-3 container navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="https://animalface.site/">닮은 동물 테스트</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">동물상 테스트
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+             
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="section">
+        <h1 class="title">닮은꼴 동물 찾기</h1>
+        <h2 class="subtitle">사진을 선택하고 나의 닮은꼴 동물을 찾아보세요</h2>
+        <h2 class="sr-only">나는 어떤 동물과 닮았을까? 나의 동물상 찾기를 해보세요!</h2>
+        <h3 class="sr-only">대표 동물상 연예인 사진 데이터로 학습한 인공지능이 나의 얼굴로 동물상과 특징을 찾아드립니다.</h3>
+        <h4 class="sr-only">본 서비스는 Google의 인공지능 teachable machine 2.0을 활용하였습니다.</h4>
+        <p class="sr-only">얼굴로 보는 인공지능 동물상 테스트, 나와 닮은 동물상을 찾아보세요! 대표 동물상 연예인 사진 데이터로 학습한 인공지능이 나의 얼굴로 동물상과 특징을 찾아드립니다. 회원가입도 필요없이 화면에서 바로 확인해보세요! 사진 데이터는 그 어디에도 전송되지 않습니다. 인공지능이 보는 나의 동물상 테스트 한번 해보세요! 강아지상? 고양이상? 여우상? 사슴상? 토끼상? 곰상? 공룡상? 얼굴상 테스트를 통해 나와 닮은 동물 찾기를 할 수 있습니다.</p>
+    </section>
+  
+        </div>
+    </section>
+    <h3 class="pb-2 d-flex justify-content-center">성별을 선택하세요</h3>
+    <section class="d-flex justify-content-center">
+        <p class="d-flex align-items-center pr-3">여자</p>
+        <div>
+            <input type="checkbox" id="gender">
+            <label for="gender">
+                <span class="knob">
+                    <i></i>
+                </span>
+            </label>
+        </div>
+        <p class="d-flex align-items-center pl-3">남자</p>
+    </section>
+    <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <div class="mt-3 container file-upload">
+        <div class="image-upload-wrap">
+            <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+            <div class="drag-text">
+                <img src="img/upload.svg" class="mt-5 pt-5 upload">
+                <h3 class="mb-5 pb-5 pt-4  upload-text">얼굴 사진을 올려놓거나 눌러서 업로드하세요!</h3>
+            </div>
+        </div>
+        <div class="file-upload-content">
+            <img class="file-upload-image" id="face-image" src="#" alt="your image" />
+            <div id="loading" class="animated bounce">
+                <div class="spinner-border" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+                <p class="text-center">AI가 당신의 동물상을 분석중입니다.</p>
+            </div>
+            <p class="result-message"></p>
+            <div id="label-container" class="d-flex flex-column justify-content-around"></div>
+            <div id="addThis" class="addthis_inline_share_toolbox_6lz1"></div>
+
+            <div class="pt-3 image-title-wrap">
+                <button type="button p-2" class="try-again-btn" onclick="gaReload1();" data-toggle="modal" data-target="#adModal">
+                    <span class="try-again-text">다른 사진으로 재시도</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- <div id="coupang" class="container d-flex justify-content-center">
+        <script src="https://ads-partners.coupang.com/g.js"></script>
+        <script>
+            new PartnersCoupang.G({
+                "id": 141621,
+                "subId": null
+            });
+        </script>
+    </div> -->
+    <div class="mt-2 container d-flex justify-content-center ad-banner">
+        <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-1ibeto5pa83fn" data-ad-width="320" data-ad-height="100"></ins>
+    </div>
+    <div class="mt-2 container d-flex justify-content-center ad-banner">
+        <ins class="kakao_ad_area" style="display:none;" 
+     data-ad-unit    = "DAN-1jefy9znk6ibb" 
+     data-ad-width   = "300" 
+     data-ad-height  = "250"></ins>
+    </div>
+<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+
+        <!-- <a href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg" class="d-flex flex-column justify-content-center align-items-center">
+
+        </a> -->
+
+    </section>
+    <div class="container pt-3">
+        <div id="disqus_thread"></div>
+    </div>
+    <footer class="footer pt-5 container d-flex justify-content-center">
+        <div>
+            <p>&copy; 조코딩 JoCoding 2020. All Rights Reserved. </p>
+<!--            
+        <ul class="list-inline d-flex justify-content-center">
+            <li class="list-inline-item">
+                <a href="https://developerdk.tistory.com/46">Privacy</a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://developerdk.tistory.com/47">Terms</a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg">FAQ</a>
+            </li>
+        </ul>
+-->
+        </div>
+    </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="adModal" tabindex="-1" role="dialog" aria-labelledby="adModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="adModalLabel">(AD)광고 - 재시도를 한번 더 눌러주세요.</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body d-flex justify-content-center">
+                    <ins class="kakao_ad_area" style="display:none;" 
+ data-ad-unit    = "DAN-t89oh3sc0ew5" 
+ data-ad-width   = "300" 
+ data-ad-height  = "250"></ins>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button p-2" class="try-again-btn" onclick="gaReload2();">
+                        <span class="try-again-text">다른 사진으로 재시도</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function gaReload1() {
+            gtag('event', '다른 사진으로 재시도 1차', {
+                'event_category': '다른 사진으로 재시도'
+            });
+        }
+        function gaReload2() {
+            gtag('event', '다른 사진으로 재시도 2차', {
+                'event_category': '다른 사진으로 재시도'
+            });
+            window.location.reload();
+        }
+    </script>
+    <script>
+        (function() {
+        var d = document,
+            s = d.createElement('script');
+        s.src = 'https://jocoding.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the
+        <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    <script>
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function(e) {
+                    $('.image-upload-wrap').hide();
+                    $('#loading').show();
+                    $('.file-upload-image').attr('src', e.target.result);
+                    $('.file-upload-content').show();
+                    $('.image-title').html(input.files[0].name);
+                };
+                reader.readAsDataURL(input.files[0]);
+                init().then(function() {
+                    console.log("hello");
+                    predict();
+                    $('#loading').hide();
+                });
+            } else {
+                removeUpload();
+            }
+        }
+
+        function removeUpload() {
+            $('.file-upload-input').replaceWith($('.file-upload-input').clone());
+            $('.file-upload-content').hide();
+            $('.image-upload-wrap').show();
+        }
+        $('.image-upload-wrap').bind('dragover', function() {
+            $('.image-upload-wrap').addClass('image-dropping');
+        });
+        $('.image-upload-wrap').bind('dragleave', function() {
+            $('.image-upload-wrap').removeClass('image-dropping');
+        });
+    </script>
+    <script type="text/javascript">
+        let URL;
+        const urlMale = "https://teachablemachine.withgoogle.com/models/o9D1N5TN/";
+        const urlFemale = "https://teachablemachine.withgoogle.com/models/bB3YHn5r/";
+        let model, webcam, labelContainer, maxPredictions;
+        async function init() {
+            if (document.getElementById("gender").checked) {
+                URL = urlMale;
+            } else {
+                URL = urlFemale;
+            }
+            const modelURL = URL + "model.json";
+            const metadataURL = URL + "metadata.json";
+            model = await tmImage.load(modelURL, metadataURL);
+            maxPredictions = model.getTotalClasses();
+            labelContainer = document.getElementById("label-container");
+            for (let i = 0; i < maxPredictions; i++) {
+                var element = document.createElement("div")
+                element.classList.add("d-flex");
+                labelContainer.appendChild(element);
+            }
+        }
+        async function predict() {
+            var image = document.getElementById("face-image")
+            const prediction = await model.predict(image, false);
+            prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
+            console.log(prediction[0].className);
+            var resultTitle, resultExplain, resultCeleb;
+            if (document.getElementById("gender").checked) {
+                gtag('event', '동물상 테스트 수행', {
+                    'event_category': '동물상 테스트 수행',
+                    'event_label': '남자'
+                });
+                switch (prediction[0].className) {
+                    case "dog":
+                        resultTitle = "앳돼고 귀여운 강아지상"
+                        resultExplain = "애정이 많고 귀여운 당신은 다른 사람에게 호감을 주는 인상이다! 성격이 밝은 편이고 이야기 하는걸 좋아해서 그룹의 중심에 있는 성격이다. 연애를 하면 먼저 다가가는 편이지만 연인이나 타인의 무관심엔 금세 시무룩 해 지기도 하는 편이다."
+                        resultCeleb = "강아지상 연예인: 송중기, 고수, 강다니엘, 백현, 박보검"
+                        gtag('event', '남자 결과 강아지상', {'event_category': '남자 결과'});
+                        break;
+                    case "cat":
+                        resultTitle = "새침한 고양이상"
+                        resultExplain = "얼핏 차갑고 날카로워 보이지만 본인만의 매력으로 인기가 높다. 상대를 잘 배려하지만 적당한 거리를 유지하고 싶어 하기도 한다. 서로 혼자의 시간을 즐길 수 있도록 배려가 필요하기도 하다!"
+                        resultCeleb = "고양이상 연예인: 소지섭, 강동원, 이준기, 희철, 태현"
+                        gtag('event', '남자 결과 고양이상', {'event_category': '남자 결과'});
+                        break;
+                    case "rabbit":
+                        resultTitle = "사랑스러운 토끼상"
+                        resultExplain = "사랑스럽고 귀여운 외모 스타일로 다른 사람에게 호감을 준다! 때론 조용한 편이지만 같이 있는 상태방에게 편안한 느낌을 준다. 감수성이 풍부하여 가끔 쉽게 상처를 입기도 한다!"
+                        resultCeleb = "토끼상 연예인:수호(엑소), 정국(방탄소년단), 박지훈(워너원)"
+                        gtag('event', '남자 결과 토끼상', {'event_category': '남자 결과'});
+                        break;
+                    case "dinosaur":
+                        resultTitle = "따뜻한 나쁜남자 공룡상"
+                        resultExplain = "무심한 성격에 첫인상은 나쁜 남자 같지만, 알고 보면 따뜻함이 묻어나는 당신! 시크한 매력에 선뜻 다가가지 못하지만 한번 다가가면 헤어나올 수 없는 터프한 매력을 가진 카리스마 있는 남자다."
+                        resultCeleb = "공룡상 연예인: 공유, 김우빈, 탑, 육성재, 창모"
+                        gtag('event', '남자 결과 공룡상', {'event_category': '남자 결과'});
+                        break;
+                    case "bear":
+                        resultTitle = "포근한 매력의 곰상"
+                        resultExplain = "첫 인상은 무서워 보이지만 알고 보면 귀여운 매력의 당신! 꼼꼼하고 섬세한 성격으로 연인을 헌신적으로 챙겨주는 당신은 연인에게 듬직한 존재! 포근한 매력에 듬직함까지 갖춘 최고의 남자다!"
+                        resultCeleb = "곰상 연예인: 조진웅, 김태우, 마동석, 카이, 정준하"
+                        gtag('event', '남자 결과 곰상', {'event_category': '남자 결과'});
+                        break;
+                    default:
+                        resultTitle = "알수없음"
+                        resultExplain = ""
+                        resultCeleb = ""
+                        gtag('event', '남자 결과 알수없음', {'event_category': '남자 결과'});
+                }
+            } else {
+                gtag('event', '동물상 테스트 수행', {
+                    'event_category': '동물상 테스트 수행',
+                    'event_label': '여자'
+                });
+                switch (prediction[0].className) {
+                    case "dog":
+                        resultTitle = "앳돼고 귀여운 강아지상"
+                        resultExplain = "애정이 많고 귀여운 당신은 다른 사람에게 호감을 주는 인상이다! 성격이 밝은 편이고 이야기 하는걸 좋아해서 그룹의 중심에 있는 성격이다. 연애를 하면 먼저 다가가는 편이지만 연인이나 타인의 무관심엔 금세 시무룩 해 지기도 하는 편이다."
+                        resultCeleb = "강아지상 연예인: 박보영, 문근영, 정은지, 아이유, 송지효, 민아"
+                        gtag('event', '여자 결과 강아지상', {'event_category': '여자 결과'});
+                        break;
+                    case "cat":
+                        resultTitle = "새침한 고양이상"
+                        resultExplain = "얼핏 차갑고 날카로워 보이지만 본인만의 매력으로 인기가 높다. 상대를 잘 배려하지만 적당한 거리를 유지하고 싶어 하기도 한다. 서로 혼자의 시간을 즐길 수 있도록 배려가 필요하기도 하다!"
+                        resultCeleb = "고양이상 연예인: 청하, 한예슬, 현아, 예지, 이성경, 이효리"
+                        gtag('event', '여자 결과 고양이상', {'event_category': '여자 결과'});
+                        break;
+                    case "rabbit":
+                        resultTitle = "사랑스러운 토끼상"
+                        resultExplain = "사랑스럽고 귀여운 외모 스타일로 다른 사람에게 호감을 준다! 때론 조용한 편이지만 같이 있는 상태방에게 편안한 느낌을 준다. 감수성이 풍부하여 가끔 쉽게 상처를 입기도 한다!"
+                        resultCeleb = "토끼상 연예인: 수지, 이지아, 나연, 문채원, 효정"
+                        gtag('event', '여자 결과 토끼상', {'event_category': '여자 결과'});
+                        break;
+                    case "deer":
+                        resultTitle = "우아하고 기품있는 사슴상"
+                        resultExplain = "우아하고 기품있는 분위기의 당신은 사슴같은 매력의 소유자다. 청아한 눈망울과 기품있는 태도는 당신의 가치를 높이는 트레이드 마크이다! 온유하고 이해심이 많지만 상황이 맞지 않으면 시비를 따지기 보다 자리를 피하는 편이기도 하다."
+                        resultCeleb = "사슴상 연예인: 전지현, 윤아, 손연재, 이연희, 고아라, 문근영"
+                        gtag('event', '여자 결과 사슴상', {'event_category': '여자 결과'});
+                        break;
+                    case "fox":
+                        resultTitle = "섹시한 밀당고수 여우상"
+                        resultExplain = "상대의 마음을 홀리는 매력을 가진 매력적인 성격이다. 센스 넘치고 배려심을 가지고 있다! 연인에게도 적극적으로 애정표현을 하고 섬세한 성향을 지녔다. 배려심이 많은 상대와 상성이 좋은 편이다."
+                        resultCeleb = "여우상 연예인: 제니, 경리, 쯔위, 한혜진, 서지수"
+                        gtag('event', '여자 결과 여우상', {'event_category': '여자 결과'});
+                        break;
+                    default:
+                        resultTitle = "알수없음"
+                        resultExplain = ""
+                        resultCeleb = ""
+                        gtag('event', '여자 결과 알수없음', {'event_category': '여자 결과'});
+                }
+            }
+            var title = "<div class='" + prediction[0].className + "-animal-title'>" + resultTitle + "</div>"
+            var explain = "<div class='animal-explain pt-2'>" + resultExplain + "</div>"
+            var celeb = "<div class='" + prediction[0].className + "-animal-celeb pt-2 pb-2'>" + resultCeleb + "</div>"
+            $('.result-message').html(title + explain + celeb);
+            var barWidth;
+            for (let i = 0; i < maxPredictions; i++) {
+                if (prediction[i].probability.toFixed(2) > 0.1) {
+                    barWidth = Math.round(prediction[i].probability.toFixed(2) * 100) + "%";
+                } else if (prediction[i].probability.toFixed(2) >= 0.01) {
+                    barWidth = "4%"
+                } else {
+                    barWidth = "2%"
+                }
+                var labelTitle;
+                switch (prediction[i].className) {
+                    case "dog":
+                        labelTitle = "강아지상"
+                        break;
+                    case "cat":
+                        labelTitle = "고양이상"
+                        break;
+                    case "rabbit":
+                        labelTitle = "토끼상"
+                        break;
+                    case "dinosaur":
+                        labelTitle = "공룡상"
+                        break;
+                    case "bear":
+                        labelTitle = "곰상"
+                        break;
+                    case "deer":
+                        labelTitle = "사슴상"
+                        break;
+                    case "fox":
+                        labelTitle = "여우상"
+                        break;
+                    default:
+                        labelTitle = "알수없음"
+                }
+                var label = "<div class='animal-label d-flex align-items-center'>" + labelTitle + "</div>"
+                var bar = "<div class='bar-container position-relative container'><div class='" + prediction[i].className + "-box'></div><div class='d-flex justify-content-center align-items-center " + prediction[i].className + "-bar' style='width: " + barWidth + "'><span class='d-block percent-text'>" + Math.round(prediction[i].probability.toFixed(2) * 100) + "%</span></div></div>"
+                labelContainer.childNodes[i].innerHTML = label + bar;
+            }
+        }
+    </script>
+    <script>
+        function iosApp() {
+            document.getElementById("coupang").style.display="none";
+            $("#coupang ins").hide();
+            document.getElementById("addThis").style.display="none";
+            document.getElementById("disqus_thread").style.display="none";
+            var kakao = document.getElementsByClassName("kakao_ad_area");
+            for (var i = 0; i < kakao.length; i++) {
+              if(kakao[i]) {
+                  kakao[i].style.display="none";
+              }
+            }
+            document.getElementById("yotube-top-link").style.display="none";
+            document.getElementById("yotube-mid-link").style.display="none";
+            document.getElementById("yotube-bottom-link").style.display="none";
+        }
+    </script>
+</body>
+<!-- 
+image input box
+Copyright (c) 2020 by Aaron Vanston (https://codepen.io/aaronvanston/pen/yNYOXR)
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+gender toggle
+Copyright (c) 2020 by Mert Cukuren (https://codepen.io/knyttneve/pen/bPpEZY)
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ -->
+
+</html>
